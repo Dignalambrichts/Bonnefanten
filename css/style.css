@@ -1,0 +1,355 @@
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@font-face {
+    font-family: "Bonnefanten";
+    src: url("../../fonts/Bonnefanten-Block.otf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bonnefanten";
+    src: url("../../fonts/Bonnefanten-Gothic.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bonnefanten";
+    src: url("../../fonts/Bonnefanten-Slab.otf") format("truetype");
+    font-weight: oblique;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "StyreneB";
+    src: url("../../fonts/StyreneB-Bold.otf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "StyreneB";
+    src: url("../../fonts/StyreneB-BoldItalic.otf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "StyreneB";
+    src: url("../../fonts/StyreneB-Regular.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "StyreneB";
+    src: url("../../fonts/StyreneB-RegularItalic.otf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #1F2C33;
+    font-family: "StyreneB", Georgia, serif;
+    color: white;
+    font-size: 20px;
+}
+
+main {
+    /* min-height: 60vh; */
+    width: 100vw;
+}
+
+h1 {
+    font-family: "Bonnefanten", Georgia, serif;
+    font-size: 2em;
+    line-height: 1em;
+    margin: 1em;
+}
+
+h2 {
+    font-family: "StyreneB", Georgia, serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1em;
+    margin: 1em;
+}
+
+h3 {
+    font-family: "StyreneB", Georgia, serif;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1em;
+    margin: 1em;
+    text-align: left;
+}
+
+.kenmerken h3 {
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.engels {
+    font-style: italic;
+}
+
+.maincenter {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.vraag {
+    height: 50vh;
+}
+
+.beschrijving {
+    max-width: 600px;
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 1.25em;
+    display: block;
+    float: left;
+    font-size: 1em;
+}
+
+#bigquestion.maincenter {
+    max-width: 1370px;
+}
+
+#bigquestion .imagesBox {
+    height: 266px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    color: #1F2C33;
+    font-family: "StyreneB", Georgia, serif;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 0.95em;
+    cursor: pointer;
+    outline: none;
+    margin-top: 15px;
+}
+
+#beginscherm h2 {
+    margin-bottom: 50px;
+}
+
+#beginscherm button {
+    margin-top: 50px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button p {
+    margin-top: 15px;
+}
+
+.next {
+    width: 190px;
+    height: 190px;
+    /* display: flex;
+    flex-direction: column;
+    min-height: 190px; */
+}
+
+.next.imagesBox {
+    /* display: flex;
+    flex-direction: column;
+    min-height: 190px; */
+    /* box-sizing: content-box; */
+    height: 280px;
+}
+
+/* #title {
+    text-align: center;
+} */
+
+.titlezonde {
+    font-size: 4em;
+    margin-top: 0.5em;
+}
+
+.quote {
+    font-style: italic;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.kenmerken {
+    float: right;
+    max-width: 450px;
+    margin-left: 25px;
+}
+
+.kenmerken-rechts {
+    margin-left: 25px;
+}
+
+.kenmerken div {
+    width: 200px;
+    display: block;
+    float: left;
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.85em;
+}
+
+img {
+    max-width: 100%;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.arrow {
+    margin-top: 100px;
+    background-color: transparent;
+    display: block;
+}
+
+.arrow img {
+    width: 70px;
+    height: auto;
+    rotate: 180deg;
+}
+
+.Bonnefanten-logo {
+    width: 290px;
+}
+
+footer {
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+footer img,
+footer button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    opacity: 65%;
+}
+
+@media all and (max-width: 1130px) {
+
+    /*@media all and (max-width: 1100px) and (min-width: 769px) {*/
+    main .maincenter {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .kenmerken {
+        margin: 0 auto;
+    }
+
+    .beschrijving,
+    .kenmerken {
+        float: none;
+    }
+}
+
+@media all and (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+
+    /*phone*/
+
+    .kenmerken h3 {
+        width: fit-content;
+    }
+}
+
+@media all and (max-width: 475px) {
+    body {
+        font-size: 15px;
+    }
+
+    header h1 {
+        line-height: 1.3em;
+    }
+
+    .titlezonde {
+        font-size: 2.8em;
+        margin: 0.5em;
+    }
+
+    .next {
+        width: 150px;
+        height: 150px;
+    }
+
+
+    .next.imagesBox {
+        height: 200px;
+    }
+
+    #bigquestion .imagesBox {
+        height: 175px;
+    }
+
+    .beschrijving {
+        font-size: 0.95em;
+    }
+
+    button p {
+        margin-top: 10px;
+    }
+
+    .arrow {
+        margin-top: 25px;
+    }
+
+    .arrow img {
+        width: 50px;
+    }
+
+    .Bonnefanten-logo {
+        width: 200px;
+    }
+
+    .kenmerken {
+        margin-top: 20px;
+    }
+
+    .kenmerken div {
+        width: inherit;
+    }
+
+    .kenmerken-rechts {
+        margin-left: 0px;
+    }
+
+    .kenmerken div {
+        float: none;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+}
