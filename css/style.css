@@ -6,49 +6,49 @@
 
 @font-face {
     font-family: "Bonnefanten";
-    src: url("../../fonts/Bonnefanten-Block.otf") format("truetype");
+    src: url("../fonts/Bonnefanten-Block.otf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Bonnefanten";
-    src: url("../../fonts/Bonnefanten-Gothic.otf") format("truetype");
+    src: url("../fonts/Bonnefanten-Gothic.otf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Bonnefanten";
-    src: url("../../fonts/Bonnefanten-Slab.otf") format("truetype");
+    src: url("../fonts/Bonnefanten-Slab.otf") format("truetype");
     font-weight: oblique;
     font-style: normal;
 }
 
 @font-face {
     font-family: "StyreneB";
-    src: url("../../fonts/StyreneB-Bold.otf") format("truetype");
+    src: url("../fonts/StyreneB-Bold.otf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "StyreneB";
-    src: url("../../fonts/StyreneB-BoldItalic.otf") format("truetype");
+    src: url("../fonts/StyreneB-BoldItalic.otf") format("truetype");
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: "StyreneB";
-    src: url("../../fonts/StyreneB-Regular.otf") format("truetype");
+    src: url("../fonts/StyreneB-Regular.otf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "StyreneB";
-    src: url("../../fonts/StyreneB-RegularItalic.otf") format("truetype");
+    src: url("../fonts/StyreneB-RegularItalic.otf") format("truetype");
     font-weight: normal;
     font-style: italic;
 }
