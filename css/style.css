@@ -70,10 +70,11 @@ main {
 }
 
 h1 {
-    font-family: "Bonnefanten", Georgia, serif;
+    font-family: "StyreneB", Georgia, serif;
     font-size: 2em;
     line-height: 1em;
     margin: 1em;
+    font-weight: bolder;
 }
 
 h2 {
