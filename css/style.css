@@ -58,7 +58,7 @@
     font-family: 'Chakra Petch Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Chakra Petch Regular'), url('ChakraPetch-Regular.woff') format('woff');
+    src: url("../fonts/ChakraPetch-Regular.woff") format("woff");
 }
 
 
