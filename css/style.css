@@ -417,7 +417,8 @@ footer button {
     }
 
     .kenmerken {
-        margin-top: 20px;
+        margin-top: 40px;
+        max-width: 200px;
     }
 
     .kenmerken div {
