@@ -351,6 +351,7 @@ footer button {
 
     .kenmerken {
         margin: 0 auto;
+        margin-top: 40px;
     }
 
     .beschrijving,
@@ -365,6 +366,9 @@ footer button {
     }
 
     /*phone*/
+    .kenmerken {
+        margin-top: 40px;
+    }
 
     .kenmerken h3 {
         width: fit-content;
