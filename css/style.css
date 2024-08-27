@@ -335,7 +335,7 @@ footer button {
     display: block;
     margin: 0 auto;
     margin-top: 25px;
-    opacity: 65%;
+    opacity: 100%;
 }
 
 @media all and (max-width: 1130px) {
