@@ -303,6 +303,16 @@ button p {
     font-size: 0.85em;
 }
 
+.terugknop {
+    display: block;
+    padding: 20px;
+    background: CC8E8E;
+    color: black;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
 img {
     max-width: 100%;
     -webkit-filter: grayscale(100%);
