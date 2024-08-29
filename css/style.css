@@ -140,7 +140,7 @@ a {
 body {
     background: #340E1a;
     /* 3D101E*/
-    font-family: "Chakra Petch Regular", StyreneB, serif;
+    font-family: "Chakra Petch Regular", "StyreneB", serif;
     color: white;
     font-size: 20px;
 }
@@ -151,7 +151,7 @@ main {
 }
 
 h1 {
-    font-family: "Chakra Petch Bold", StyreneB, serif;
+    font-family: "Chakra Petch Bold", "StyreneB", serif;
     font-size: 2em;
     line-height: 1em;
     margin: 1em;
@@ -159,7 +159,7 @@ h1 {
 }
 
 h2 {
-    font-family: "Chakra Petch Regular", StyreneB, serif;
+    font-family: "Chakra Petch Regular", "StyreneB", serif;
     font-weight: bold;
     font-size: 1.5em;
     line-height: 1em;
@@ -167,7 +167,7 @@ h2 {
 }
 
 h3 {
-    font-family: "Chakra Petch Regular", StyreneB, serif;
+    font-family: "Chakra Petch Regular", "StyreneB", serif;
     font-weight: bold;
     font-size: 1em;
     line-height: 1em;
@@ -176,7 +176,7 @@ h3 {
 }
 
 .kenmerken h3 {
-    font-family: "Chakra Petch Bold", StyreneB, serif;
+    font-family: "Chakra Petch Bold", "StyreneB", serif;
     margin-left: 0px;
     margin-bottom: 0px;
 }
@@ -220,7 +220,7 @@ button {
     background-color: white;
     border: none;
     color: #1F2C33;
-    font-family: "Chakra Petch Regular", StyreneB, serif;
+    font-family: "Chakra Petch Regular", "StyreneB", serif;
     padding: 15px 20px;
     text-align: center;
     text-decoration: none;
