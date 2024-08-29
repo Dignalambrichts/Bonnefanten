@@ -312,6 +312,7 @@ button p {
     text-align: center;
     width: 200px;
     margin: 0 auto;
+        font-size: 0.85em;
 }
 
 img {
