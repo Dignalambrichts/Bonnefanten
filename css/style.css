@@ -150,6 +150,10 @@ main {
     width: 100vw;
 }
 
+.homepage {
+    margin-top: 50px;
+}
+
 h1 {
     font-family: "Chakra Petch Bold", "StyreneB", serif;
     font-size: 2em;
