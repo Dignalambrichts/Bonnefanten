@@ -382,6 +382,13 @@ footer button {
         width: 230px;
         height: 310px;
     }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100vh;
+    }
 }
 
 @media all and (max-width: 1130px) {
