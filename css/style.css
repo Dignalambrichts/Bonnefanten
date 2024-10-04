@@ -40,7 +40,7 @@
 }
 
 @font-face {
-    font-family: "StyreneB Regular";
+    font-family: "StyreneB";
     src: url("../fonts/StyreneB-Regular.otf") format("truetype");
     font-weight: normal;
     font-style: normal;
@@ -164,8 +164,7 @@ h1 {
 }
 
 h2 {
-    font-family: "Chakra Petch Regular", "StyreneB Regular", serif;
-    font-weight: bold;
+    font-family: "Chakra Petch Regular", "StyreneB", serif;
     font-size: 1.5em;
     line-height: 1em;
     margin: 1em;
